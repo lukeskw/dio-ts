@@ -1,0 +1,16 @@
+{
+  "name": "dio-ts",
+  "version": "1.0.0",
+  "description": "project to study ts",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
